@@ -7,12 +7,6 @@ export const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
 
-  console.log("Food List:", food_list);
-
-  food_list.forEach((food, index) => {
-    console.log(`Food Item ${index}:`, food);
-  });
-
   const addToCart = (itemId) => {
     if (!cartItems[itemId]) {
       setCartItems((prev) => ({ ...prev, [itemId]: 1 }));
