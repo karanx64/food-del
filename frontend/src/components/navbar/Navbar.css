@@ -111,9 +111,22 @@
 }
 
 @media (max-width:810px) {
-
-
     .navbar-menu {
         display: none;
+    }
+
+    .navbar-right button {
+        padding: 5px 12px;
+        font-size: 14px;
+    }
+}
+@media (max-width:440px) {
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbar-right button {
+        padding: 5px 12px;
+        font-size: 14px;
     }
 }
