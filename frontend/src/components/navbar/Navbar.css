@@ -120,6 +120,7 @@
         font-size: 14px;
     }
 }
+
 @media (max-width:440px) {
     .navbar-menu {
         display: none;
@@ -128,5 +129,19 @@
     .navbar-right button {
         padding: 5px 12px;
         font-size: 14px;
+    }
+
+    .navbar>* {
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width:400px) {
+
+
+    .navbar-right button {
+        padding: 2px 8px;
+        font-size: 14px;
+        text-wrap: nowrap;
     }
 }
