@@ -20,13 +20,13 @@ const chatbot = () => {
           method: "POST",
           headers: {
             Authorization:
-              "Bearer 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", //API key
+              "Bearer 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", //API key
             "HTTP-Referer": "<YOUR_SITE_URL>", // Optional. Site URL for rankings on openrouter.ai.
             "X-Title": "<YOUR_SITE_NAME>", // Optional. Site title for rankings on openrouter.ai.
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            model: "deepseek/deepseek-r1:free",
+            model: "deepseek/deepseek-chat-v3-0324:free",
             messages: [{ role: "user", content: userInput }],
           }),
         }
