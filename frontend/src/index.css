@@ -31,3 +31,23 @@ a {
         opacity: 1;
     }
 }
+
+@keyframes GrowOut {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes ShrinkIn {
+    0% {
+        transform: scale(100);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}

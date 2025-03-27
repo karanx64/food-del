@@ -8,6 +8,7 @@ import Cart from "./Pages/cart/Cart";
 import PlaceOrder from "./Pages/placeOrder/PlaceOrder";
 import Footer from "./components/footer/Footer";
 import LoginPopup from "./components/loginPopup/LoginPopup";
+import Chatbot from "./components/chatbot/Chatbot";
 
 const App = () => {
   const [showLogin, setShowLogin] = React.useState(false);
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/Cart" element={<Cart />} />
           <Route path="/PlaceOrder" element={<PlaceOrder />} />
         </Routes>
+        <Chatbot/>
       </div>
       <Footer />
     </>
