@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "./chatbot.css";
+import "./Chatbot.css";
 import close_icon from "../../assets/frontend_assets/close_icon.svg";
 import ai_icon from "../../assets/frontend_assets/ai_icon.png";
 
