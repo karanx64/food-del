@@ -19,8 +19,9 @@ const chatbot = () => {
         {
           method: "POST",
           headers: {
-            Authorization:
-              "Bearer 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", //API key
+            Authorization: `Bearer ${
+              import.meta.env.VITE_OPENROUTER_DEEPSEEK_V3_KEY
+            }`, //API key
             "HTTP-Referer": "<YOUR_SITE_URL>", // Optional. Site URL for rankings on openrouter.ai.
             "X-Title": "<YOUR_SITE_NAME>", // Optional. Site title for rankings on openrouter.ai.
             "Content-Type": "application/json",
